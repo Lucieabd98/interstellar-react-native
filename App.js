@@ -112,7 +112,7 @@ export default function App() {
                 paddingHorizontal: 20,
               }}
             >
-              <View style={{ alignItems: "center" }}>
+              <View style={{ alignItems: "center", gap: 10 }}>
                 <Entypo name="star" size={24} color="yellow" />
                 <Text
                   style={{
@@ -122,7 +122,7 @@ export default function App() {
                   8.6/10
                 </Text>
               </View>
-              <View style={{ alignItems: "center" }}>
+              <View style={{ alignItems: "center", gap: 10 }}>
                 <Entypo name="star-outlined" size={24} color="white" />
                 <Text
                   style={{
@@ -132,7 +132,7 @@ export default function App() {
                   RATE THIS
                 </Text>
               </View>
-              <View style={{ alignItems: "center" }}>
+              <View style={{ alignItems: "center", gap: 10 }}>
                 <Text
                   style={{
                     color: "white",
@@ -141,6 +141,7 @@ export default function App() {
                     justifyContent: "center",
                     alignItems: "center",
                     width: "40%",
+                    paddingVertical: 5,
                   }}
                 >
                   74
@@ -274,7 +275,7 @@ export default function App() {
               </View>
             </ScrollView>
           </View>
-          <View style={{ padding: 20, gap: 20 }}>
+          <View style={{ paddingVertical: 30, paddingHorizontal: 20, gap: 20 }}>
             <View>
               <Text style={{ color: "white", fontWeight: "bold" }}>
                 Director
